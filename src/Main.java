@@ -10,18 +10,19 @@ public class Main {
                 .toArray();
         BiFunction<Integer, Integer, Integer> comparator = null;
 
-
+        // isAscending уже компаратор
 
         if(isAscending) {
             // в убывающем
+
+
         }else if (!isAscending) {
             // в возрастающем
-        
+
+
         }else{
             System.out.println("что-то пошло не так...");
         }
-
-
 
         sort(array, comparator);
         Arrays.stream(array).forEach(e -> System.out.print(e + " "));
